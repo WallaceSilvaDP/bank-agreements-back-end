@@ -8,10 +8,11 @@ namespace BankAgreements.Infrastructure.Entities.Contracts
 	{
 		public Guid Id { get; set; }
 		public required string ContractNumber { get; set; }
+		public required decimal Amount { get; set; }
 		public required Guid DebtorId { get; set; }
-		public required Debtor Debtor { get; set; }
+		public Debtor? Debtor { get; set; }
 		public required Guid InstitutionId { get; set; }
-		public required Institution Institution { get; set; }
+		public Institution? Institution { get; set; }
 		public required List<Installment> Installments { get; set; }
 	}
 }

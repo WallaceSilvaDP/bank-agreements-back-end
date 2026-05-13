@@ -12,3 +12,18 @@ D:\Paschoalotto\back-end-paschoalotto\bank-agreements-back\BankAgreements\BankAg
 D:\Paschoalotto\back-end-paschoalotto\bank-agreements-back\BankAgreements\BankAgreements.Infrastructure\bin\Debug\net8.0\BankAgreements.Infrastructure.runtimeconfig.json
 D:\Paschoalotto\back-end-paschoalotto\bank-agreements-back\BankAgreements\BankAgreements.Infrastructure\obj\Debug\net8.0\BankAgreements.Infrastructure.csproj.AssemblyReference.cache
 D:\Paschoalotto\back-end-paschoalotto\bank-agreements-back\BankAgreements\BankAgreements.Infrastructure\obj\Debug\net8.0\BankAgreements.Infrastructure.genruntimeconfig.cache
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Infrastructure\bin\Debug\net8.0\BankAgreements.Infrastructure.deps.json
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Infrastructure\bin\Debug\net8.0\BankAgreements.Infrastructure.runtimeconfig.json
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Infrastructure\bin\Debug\net8.0\BankAgreements.Infrastructure.dll
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Infrastructure\bin\Debug\net8.0\BankAgreements.Infrastructure.pdb
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Infrastructure\obj\Debug\net8.0\BankAgreements.Infrastructure.csproj.AssemblyReference.cache
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Infrastructure\obj\Debug\net8.0\BankAgreements.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Infrastructure\obj\Debug\net8.0\BankAgreements.Infrastructure.AssemblyInfoInputs.cache
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Infrastructure\obj\Debug\net8.0\BankAgreements.Infrastructure.AssemblyInfo.cs
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Infrastructure\obj\Debug\net8.0\BankAgreements.Infrastructure.csproj.CoreCompileInputs.cache
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Infrastructure\obj\Debug\net8.0\BankAgreements.Infrastructure.sourcelink.json
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Infrastructure\obj\Debug\net8.0\BankAgreements.Infrastructure.dll
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Infrastructure\obj\Debug\net8.0\refint\BankAgreements.Infrastructure.dll
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Infrastructure\obj\Debug\net8.0\BankAgreements.Infrastructure.pdb
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Infrastructure\obj\Debug\net8.0\BankAgreements.Infrastructure.genruntimeconfig.cache
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Infrastructure\obj\Debug\net8.0\ref\BankAgreements.Infrastructure.dll

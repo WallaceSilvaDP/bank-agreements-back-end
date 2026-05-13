@@ -1,10 +1,16 @@
 using BankAgreements.Infrastructure.Data;
+using BankAgreements.Infrastructure.Repositories.Contracts;
+using BankAgreements.Infrastructure.Seed;
+using BankAgreements.Services.Contracts;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllers();
+builder.Services.AddScoped<IContractRepository, ContractRepository>();
+builder.Services.AddScoped<IContractService, ContractService>();
+
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -26,6 +32,21 @@ if (app.Environment.IsDevelopment())
 {
 	app.UseSwagger();
 	app.UseSwaggerUI();
+}
+
+using (var scope = app.Services.CreateScope())
+{
+    var context = scope.ServiceProvider
+        .GetRequiredService<AppDbContext>();
+
+    if (!context.Contracts.Any())
+    {
+        var contracts = ContractSeed.GetContracts();
+
+        context.Contracts.AddRange(contracts);
+
+        context.SaveChanges();
+    }
 }
 
 app.UseHttpsRedirection();

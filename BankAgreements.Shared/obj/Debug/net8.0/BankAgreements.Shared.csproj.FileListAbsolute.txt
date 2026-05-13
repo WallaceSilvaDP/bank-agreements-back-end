@@ -9,3 +9,15 @@ D:\Paschoalotto\back-end-paschoalotto\bank-agreements-back\BankAgreements\BankAg
 D:\Paschoalotto\back-end-paschoalotto\bank-agreements-back\BankAgreements\BankAgreements.Shared\obj\Debug\net8.0\refint\BankAgreements.Shared.dll
 D:\Paschoalotto\back-end-paschoalotto\bank-agreements-back\BankAgreements\BankAgreements.Shared\obj\Debug\net8.0\BankAgreements.Shared.pdb
 D:\Paschoalotto\back-end-paschoalotto\bank-agreements-back\BankAgreements\BankAgreements.Shared\obj\Debug\net8.0\ref\BankAgreements.Shared.dll
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Shared\bin\Debug\net8.0\BankAgreements.Shared.deps.json
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Shared\bin\Debug\net8.0\BankAgreements.Shared.dll
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Shared\bin\Debug\net8.0\BankAgreements.Shared.pdb
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Shared\obj\Debug\net8.0\BankAgreements.Shared.GeneratedMSBuildEditorConfig.editorconfig
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Shared\obj\Debug\net8.0\BankAgreements.Shared.AssemblyInfoInputs.cache
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Shared\obj\Debug\net8.0\BankAgreements.Shared.AssemblyInfo.cs
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Shared\obj\Debug\net8.0\BankAgreements.Shared.csproj.CoreCompileInputs.cache
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Shared\obj\Debug\net8.0\BankAgreements.Shared.sourcelink.json
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Shared\obj\Debug\net8.0\BankAgreements.Shared.dll
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Shared\obj\Debug\net8.0\refint\BankAgreements.Shared.dll
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Shared\obj\Debug\net8.0\BankAgreements.Shared.pdb
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Shared\obj\Debug\net8.0\ref\BankAgreements.Shared.dll

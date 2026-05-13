@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BankAgreements.Infrastructure\BankAgreements.Infrastructure.csproj" />
+    <ProjectReference Include="..\BankAgreements.Shared\BankAgreements.Shared.csproj" />
+  </ItemGroup>
+
 </Project>

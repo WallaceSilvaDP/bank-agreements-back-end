@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\BankAgreements\\BankAgreements.Services\\BankAgreements.Services.csproj": {}
+    "F:\\Angular Teste\\back\\bank-agreements-back-end\\BankAgreements.Services\\BankAgreements.Services.csproj": {}
   },
   "projects": {
-    "D:\\Paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\BankAgreements\\BankAgreements.Services\\BankAgreements.Services.csproj": {
+    "F:\\Angular Teste\\back\\bank-agreements-back-end\\BankAgreements.Infrastructure\\BankAgreements.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\BankAgreements\\BankAgreements.Services\\BankAgreements.Services.csproj",
-        "projectName": "BankAgreements.Services",
-        "projectPath": "D:\\Paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\BankAgreements\\BankAgreements.Services\\BankAgreements.Services.csproj",
-        "packagesPath": "C:\\Users\\FH\\.nuget\\packages\\",
-        "outputPath": "D:\\Paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\BankAgreements\\BankAgreements.Services\\obj\\",
+        "projectUniqueName": "F:\\Angular Teste\\back\\bank-agreements-back-end\\BankAgreements.Infrastructure\\BankAgreements.Infrastructure.csproj",
+        "projectName": "BankAgreements.Infrastructure",
+        "projectPath": "F:\\Angular Teste\\back\\bank-agreements-back-end\\BankAgreements.Infrastructure\\BankAgreements.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Wallace\\.nuget\\packages\\",
+        "outputPath": "F:\\Angular Teste\\back\\bank-agreements-back-end\\BankAgreements.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Visual Studio Community\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\FH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Wallace\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -30,7 +30,6 @@
         },
         "frameworks": {
           "net8.0": {
-            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {}
           }
@@ -45,11 +44,102 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
-          "framework": "net8.0",
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "EFCore.NamingConventions": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.5.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.8, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Angular Teste\\back\\bank-agreements-back-end\\BankAgreements.Services\\BankAgreements.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Angular Teste\\back\\bank-agreements-back-end\\BankAgreements.Services\\BankAgreements.Services.csproj",
+        "projectName": "BankAgreements.Services",
+        "projectPath": "F:\\Angular Teste\\back\\bank-agreements-back-end\\BankAgreements.Services\\BankAgreements.Services.csproj",
+        "packagesPath": "C:\\Users\\Wallace\\.nuget\\packages\\",
+        "outputPath": "F:\\Angular Teste\\back\\bank-agreements-back-end\\BankAgreements.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Visual Studio Community\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Wallace\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "F:\\Angular Teste\\back\\bank-agreements-back-end\\BankAgreements.Infrastructure\\BankAgreements.Infrastructure.csproj": {
+                "projectPath": "F:\\Angular Teste\\back\\bank-agreements-back-end\\BankAgreements.Infrastructure\\BankAgreements.Infrastructure.csproj"
+              },
+              "F:\\Angular Teste\\back\\bank-agreements-back-end\\BankAgreements.Shared\\BankAgreements.Shared.csproj": {
+                "projectPath": "F:\\Angular Teste\\back\\bank-agreements-back-end\\BankAgreements.Shared\\BankAgreements.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
           "targetAlias": "net8.0",
           "imports": [
             "net461",
@@ -67,7 +157,72 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Angular Teste\\back\\bank-agreements-back-end\\BankAgreements.Shared\\BankAgreements.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Angular Teste\\back\\bank-agreements-back-end\\BankAgreements.Shared\\BankAgreements.Shared.csproj",
+        "projectName": "BankAgreements.Shared",
+        "projectPath": "F:\\Angular Teste\\back\\bank-agreements-back-end\\BankAgreements.Shared\\BankAgreements.Shared.csproj",
+        "packagesPath": "C:\\Users\\Wallace\\.nuget\\packages\\",
+        "outputPath": "F:\\Angular Teste\\back\\bank-agreements-back-end\\BankAgreements.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Visual Studio Community\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Wallace\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Angular Teste\\back\\bank-agreements-back-end\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F32F6847-A9DE-F791-A353-341BE22147B2}|BankAgreements.Api\\BankAgreements.Api.csproj|f:\\angular teste\\back\\bank-agreements-back-end\\bankagreements.api\\controllers\\contracts\\contractcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32F6847-A9DE-F791-A353-341BE22147B2}|BankAgreements.Api\\BankAgreements.Api.csproj|solutionrelative:bankagreements.api\\controllers\\contracts\\contractcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32F6847-A9DE-F791-A353-341BE22147B2}|BankAgreements.Api\\BankAgreements.Api.csproj|f:\\angular teste\\back\\bank-agreements-back-end\\bankagreements.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32F6847-A9DE-F791-A353-341BE22147B2}|BankAgreements.Api\\BankAgreements.Api.csproj|solutionrelative:bankagreements.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DE40415-133F-1D3A-EA42-FFE9DC44B594}|BankAgreements.Infrastructure\\BankAgreements.Infrastructure.csproj|f:\\angular teste\\back\\bank-agreements-back-end\\bankagreements.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DE40415-133F-1D3A-EA42-FFE9DC44B594}|BankAgreements.Infrastructure\\BankAgreements.Infrastructure.csproj|solutionrelative:bankagreements.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32F6847-A9DE-F791-A353-341BE22147B2}|BankAgreements.Api\\BankAgreements.Api.csproj|f:\\angular teste\\back\\bank-agreements-back-end\\bankagreements.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F32F6847-A9DE-F791-A353-341BE22147B2}|BankAgreements.Api\\BankAgreements.Api.csproj|solutionrelative:bankagreements.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ContractController.cs",
+              "DocumentMoniker": "F:\\Angular Teste\\back\\bank-agreements-back-end\\BankAgreements.Api\\Controllers\\Contracts\\ContractController.cs",
+              "RelativeDocumentMoniker": "BankAgreements.Api\\Controllers\\Contracts\\ContractController.cs",
+              "ToolTip": "F:\\Angular Teste\\back\\bank-agreements-back-end\\BankAgreements.Api\\Controllers\\Contracts\\ContractController.cs",
+              "RelativeToolTip": "BankAgreements.Api\\Controllers\\Contracts\\ContractController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T05:28:23.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "F:\\Angular Teste\\back\\bank-agreements-back-end\\BankAgreements.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "BankAgreements.Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "F:\\Angular Teste\\back\\bank-agreements-back-end\\BankAgreements.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "BankAgreements.Infrastructure\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T03:31:40.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Angular Teste\\back\\bank-agreements-back-end\\BankAgreements.Api\\Program.cs",
+              "RelativeDocumentMoniker": "BankAgreements.Api\\Program.cs",
+              "ToolTip": "F:\\Angular Teste\\back\\bank-agreements-back-end\\BankAgreements.Api\\Program.cs",
+              "RelativeToolTip": "BankAgreements.Api\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T02:42:56.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\Angular Teste\\back\\bank-agreements-back-end\\BankAgreements.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "BankAgreements.Api\\appsettings.json",
+              "ToolTip": "F:\\Angular Teste\\back\\bank-agreements-back-end\\BankAgreements.Api\\appsettings.json",
+              "RelativeToolTip": "BankAgreements.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-13T02:36:56.529Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

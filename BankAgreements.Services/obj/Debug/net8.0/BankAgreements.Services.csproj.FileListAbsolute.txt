@@ -9,3 +9,23 @@ D:\Paschoalotto\back-end-paschoalotto\bank-agreements-back\BankAgreements\BankAg
 D:\Paschoalotto\back-end-paschoalotto\bank-agreements-back\BankAgreements\BankAgreements.Services\obj\Debug\net8.0\refint\BankAgreements.Services.dll
 D:\Paschoalotto\back-end-paschoalotto\bank-agreements-back\BankAgreements\BankAgreements.Services\obj\Debug\net8.0\BankAgreements.Services.pdb
 D:\Paschoalotto\back-end-paschoalotto\bank-agreements-back\BankAgreements\BankAgreements.Services\obj\Debug\net8.0\ref\BankAgreements.Services.dll
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Services\bin\Debug\net8.0\BankAgreements.Services.deps.json
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Services\bin\Debug\net8.0\BankAgreements.Services.runtimeconfig.json
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Services\bin\Debug\net8.0\BankAgreements.Services.dll
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Services\bin\Debug\net8.0\BankAgreements.Services.pdb
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Services\bin\Debug\net8.0\BankAgreements.Infrastructure.dll
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Services\bin\Debug\net8.0\BankAgreements.Shared.dll
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Services\bin\Debug\net8.0\BankAgreements.Infrastructure.pdb
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Services\bin\Debug\net8.0\BankAgreements.Shared.pdb
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Services\obj\Debug\net8.0\BankAgreements.Services.csproj.AssemblyReference.cache
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Services\obj\Debug\net8.0\BankAgreements.Services.GeneratedMSBuildEditorConfig.editorconfig
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Services\obj\Debug\net8.0\BankAgreements.Services.AssemblyInfoInputs.cache
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Services\obj\Debug\net8.0\BankAgreements.Services.AssemblyInfo.cs
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Services\obj\Debug\net8.0\BankAgreements.Services.csproj.CoreCompileInputs.cache
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Services\obj\Debug\net8.0\BankAgreements.Services.sourcelink.json
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Services\obj\Debug\net8.0\BankAgre.9E1330E0.Up2Date
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Services\obj\Debug\net8.0\BankAgreements.Services.dll
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Services\obj\Debug\net8.0\refint\BankAgreements.Services.dll
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Services\obj\Debug\net8.0\BankAgreements.Services.pdb
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Services\obj\Debug\net8.0\BankAgreements.Services.genruntimeconfig.cache
+F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Services\obj\Debug\net8.0\ref\BankAgreements.Services.dll
