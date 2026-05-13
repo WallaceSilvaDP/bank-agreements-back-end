@@ -1,0 +1,11 @@
+D:\Paschoalotto\back-end-paschoalotto\bank-agreements-back\BankAgreements\BankAgreements.Services\bin\Debug\net8.0\BankAgreements.Services.deps.json
+D:\Paschoalotto\back-end-paschoalotto\bank-agreements-back\BankAgreements\BankAgreements.Services\bin\Debug\net8.0\BankAgreements.Services.dll
+D:\Paschoalotto\back-end-paschoalotto\bank-agreements-back\BankAgreements\BankAgreements.Services\bin\Debug\net8.0\BankAgreements.Services.pdb
+D:\Paschoalotto\back-end-paschoalotto\bank-agreements-back\BankAgreements\BankAgreements.Services\obj\Debug\net8.0\BankAgreements.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Paschoalotto\back-end-paschoalotto\bank-agreements-back\BankAgreements\BankAgreements.Services\obj\Debug\net8.0\BankAgreements.Services.AssemblyInfoInputs.cache
+D:\Paschoalotto\back-end-paschoalotto\bank-agreements-back\BankAgreements\BankAgreements.Services\obj\Debug\net8.0\BankAgreements.Services.AssemblyInfo.cs
+D:\Paschoalotto\back-end-paschoalotto\bank-agreements-back\BankAgreements\BankAgreements.Services\obj\Debug\net8.0\BankAgreements.Services.csproj.CoreCompileInputs.cache
+D:\Paschoalotto\back-end-paschoalotto\bank-agreements-back\BankAgreements\BankAgreements.Services\obj\Debug\net8.0\BankAgreements.Services.dll
+D:\Paschoalotto\back-end-paschoalotto\bank-agreements-back\BankAgreements\BankAgreements.Services\obj\Debug\net8.0\refint\BankAgreements.Services.dll
+D:\Paschoalotto\back-end-paschoalotto\bank-agreements-back\BankAgreements\BankAgreements.Services\obj\Debug\net8.0\BankAgreements.Services.pdb
+D:\Paschoalotto\back-end-paschoalotto\bank-agreements-back\BankAgreements\BankAgreements.Services\obj\Debug\net8.0\ref\BankAgreements.Services.dll

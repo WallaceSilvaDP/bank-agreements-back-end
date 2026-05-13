@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="BankAgreements.Infrastructure/BankAgreements.Infrastructure.csproj" />
+  <Project Path="BankAgreements.Services/BankAgreements.Services.csproj" />
+  <Project Path="BankAgreements.Shared/BankAgreements.Shared.csproj" />
+  <Project Path="BankAgreements/BankAgreements.Api.csproj" />
+</Solution>
