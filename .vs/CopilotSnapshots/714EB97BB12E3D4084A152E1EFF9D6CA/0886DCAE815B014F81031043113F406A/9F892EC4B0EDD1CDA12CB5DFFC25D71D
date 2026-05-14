@@ -1,0 +1,12 @@
+﻿using BankAgreements.Shared.DTOs.Agreements;
+
+namespace BankAgreements.Services.Agreements;
+
+public interface IAgreementService
+{
+    Task<List<AgreementDTO>> GetAllAsync();
+
+    Task<AgreementDTO?> GetByIdAsync(Guid id);
+
+    Task<AgreementDTO> CreateAsync(CreateAgreementDTO dto);
+}

@@ -21,3 +21,4 @@ F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Shared\obj\Debug\n
 F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Shared\obj\Debug\net8.0\refint\BankAgreements.Shared.dll
 F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Shared\obj\Debug\net8.0\BankAgreements.Shared.pdb
 F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Shared\obj\Debug\net8.0\ref\BankAgreements.Shared.dll
+D:\Paschoalotto\back-end-paschoalotto\bank-agreements-back\BankAgreements\BankAgreements.Shared\obj\Debug\net8.0\BankAgreements.Shared.sourcelink.json

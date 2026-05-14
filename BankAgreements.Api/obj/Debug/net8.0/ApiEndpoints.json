@@ -1,5 +1,63 @@
 [
   {
+    "ContainingType": "BankAgreements.Api.Controllers.Agreements.AgreementController",
+    "Method": "GetAll",
+    "RelativePath": "api/agreements",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankAgreements.Api.Controllers.Agreements.AgreementController",
+    "Method": "Create",
+    "RelativePath": "api/agreements",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BankAgreements.Shared.DTOs.Agreements.CreateAgreementDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankAgreements.Api.Controllers.Agreements.AgreementController",
+    "Method": "GetById",
+    "RelativePath": "api/agreements/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankAgreements.Api.Controllers.Agreements.AgreementController",
+    "Method": "Simulate",
+    "RelativePath": "api/agreements/simulate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BankAgreements.Shared.DTOs.Agreements.CreateAgreementDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BankAgreements.Api.Controllers.Contracts.ContractController",
     "Method": "GetAll",
     "RelativePath": "api/contracts",
@@ -24,26 +82,5 @@
       }
     ],
     "ReturnTypes": []
-  },
-  {
-    "ContainingType": "BankAgreements.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[BankAgreements.WeatherForecast, BankAgreements.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ],
-    "EndpointName": "GetWeatherForecast"
   }
 ]

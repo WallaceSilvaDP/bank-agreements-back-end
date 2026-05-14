@@ -1811,23 +1811,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Wallace\\.nuget\\packages\\": {},
-    "D:\\Visual Studio Community\\Shared\\NuGetPackages": {}
+    "C:\\Users\\FH\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Angular Teste\\back\\bank-agreements-back-end\\BankAgreements.Services\\BankAgreements.Services.csproj",
+      "projectUniqueName": "D:\\Paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\BankAgreements\\BankAgreements.Services\\BankAgreements.Services.csproj",
       "projectName": "BankAgreements.Services",
-      "projectPath": "F:\\Angular Teste\\back\\bank-agreements-back-end\\BankAgreements.Services\\BankAgreements.Services.csproj",
-      "packagesPath": "C:\\Users\\Wallace\\.nuget\\packages\\",
-      "outputPath": "F:\\Angular Teste\\back\\bank-agreements-back-end\\BankAgreements.Services\\obj\\",
+      "projectPath": "D:\\Paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\BankAgreements\\BankAgreements.Services\\BankAgreements.Services.csproj",
+      "packagesPath": "C:\\Users\\FH\\.nuget\\packages\\",
+      "outputPath": "D:\\Paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\BankAgreements\\BankAgreements.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Visual Studio Community\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Wallace\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\FH\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1840,13 +1840,14 @@
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "projectReferences": {
-            "F:\\Angular Teste\\back\\bank-agreements-back-end\\BankAgreements.Infrastructure\\BankAgreements.Infrastructure.csproj": {
-              "projectPath": "F:\\Angular Teste\\back\\bank-agreements-back-end\\BankAgreements.Infrastructure\\BankAgreements.Infrastructure.csproj"
+            "D:\\Paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\BankAgreements\\BankAgreements.Infrastructure\\BankAgreements.Infrastructure.csproj": {
+              "projectPath": "D:\\Paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\BankAgreements\\BankAgreements.Infrastructure\\BankAgreements.Infrastructure.csproj"
             },
-            "F:\\Angular Teste\\back\\bank-agreements-back-end\\BankAgreements.Shared\\BankAgreements.Shared.csproj": {
-              "projectPath": "F:\\Angular Teste\\back\\bank-agreements-back-end\\BankAgreements.Shared\\BankAgreements.Shared.csproj"
+            "D:\\Paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\BankAgreements\\BankAgreements.Shared\\BankAgreements.Shared.csproj": {
+              "projectPath": "D:\\Paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\BankAgreements\\BankAgreements.Shared\\BankAgreements.Shared.csproj"
             }
           }
         }
@@ -1861,10 +1862,11 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "10.0.200"
     },
     "frameworks": {
       "net8.0": {
+        "framework": "net8.0",
         "targetAlias": "net8.0",
         "imports": [
           "net461",
@@ -1882,7 +1884,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

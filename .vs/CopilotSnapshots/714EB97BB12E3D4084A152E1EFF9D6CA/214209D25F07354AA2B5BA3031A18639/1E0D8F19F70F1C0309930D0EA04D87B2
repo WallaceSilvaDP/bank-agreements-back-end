@@ -1,0 +1,10 @@
+﻿namespace BankAgreements.Shared.DTOs.Agreements;
+
+public class CreateAgreementDTO
+{
+    public Guid ContractId { get; set; }
+
+    public int NumberOfInstallments { get; set; }
+
+    public DateTime FirstDueDate { get; set; }
+}

@@ -29,3 +29,12 @@ F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Services\obj\Debug
 F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Services\obj\Debug\net8.0\BankAgreements.Services.pdb
 F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Services\obj\Debug\net8.0\BankAgreements.Services.genruntimeconfig.cache
 F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Services\obj\Debug\net8.0\ref\BankAgreements.Services.dll
+D:\Paschoalotto\back-end-paschoalotto\bank-agreements-back\BankAgreements\BankAgreements.Services\bin\Debug\net8.0\BankAgreements.Services.runtimeconfig.json
+D:\Paschoalotto\back-end-paschoalotto\bank-agreements-back\BankAgreements\BankAgreements.Services\bin\Debug\net8.0\BankAgreements.Infrastructure.dll
+D:\Paschoalotto\back-end-paschoalotto\bank-agreements-back\BankAgreements\BankAgreements.Services\bin\Debug\net8.0\BankAgreements.Shared.dll
+D:\Paschoalotto\back-end-paschoalotto\bank-agreements-back\BankAgreements\BankAgreements.Services\bin\Debug\net8.0\BankAgreements.Infrastructure.pdb
+D:\Paschoalotto\back-end-paschoalotto\bank-agreements-back\BankAgreements\BankAgreements.Services\bin\Debug\net8.0\BankAgreements.Shared.pdb
+D:\Paschoalotto\back-end-paschoalotto\bank-agreements-back\BankAgreements\BankAgreements.Services\obj\Debug\net8.0\BankAgreements.Services.csproj.AssemblyReference.cache
+D:\Paschoalotto\back-end-paschoalotto\bank-agreements-back\BankAgreements\BankAgreements.Services\obj\Debug\net8.0\BankAgreements.Services.sourcelink.json
+D:\Paschoalotto\back-end-paschoalotto\bank-agreements-back\BankAgreements\BankAgreements.Services\obj\Debug\net8.0\BankAgre.9E1330E0.Up2Date
+D:\Paschoalotto\back-end-paschoalotto\bank-agreements-back\BankAgreements\BankAgreements.Services\obj\Debug\net8.0\BankAgreements.Services.genruntimeconfig.cache

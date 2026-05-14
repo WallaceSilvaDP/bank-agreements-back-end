@@ -1,0 +1,24 @@
+﻿using BankAgreements.Infrastructure.Entities.Institutions;
+
+namespace BankAgreements.Infrastructure.Seed;
+
+public static class InstitutionSeed
+{
+	public static List<Institution> GetInstitutions()
+	{
+		return
+		[
+			new Institution
+			{
+				Id = Guid.Parse("164d38ad-7482-4d6d-9996-1010a08a316d"),
+
+				Name = "Banco Paschoalotto",
+
+				Description =
+					"Instituição financeira responsável pela carteira de cobrança.",
+
+				Cnpj = "12.345.678/0001-99"
+			}
+		];
+	}
+}

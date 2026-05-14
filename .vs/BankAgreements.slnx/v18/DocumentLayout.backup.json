@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "D:\\Paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\BankAgreements\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE476750-2755-473D-9352-A35AB4BC39D1}|BankAgreements.Infrastructure\\BankAgreements.Infrastructure.csproj|d:\\paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\bankagreements\\bankagreements.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE476750-2755-473D-9352-A35AB4BC39D1}|BankAgreements.Infrastructure\\BankAgreements.Infrastructure.csproj|solutionrelative:bankagreements.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F32F6847-A9DE-F791-A353-341BE22147B2}|BankAgreements.Api\\BankAgreements.Api.csproj|d:\\paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\bankagreements\\bankagreements.api\\controllers\\agreements\\agreementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32F6847-A9DE-F791-A353-341BE22147B2}|BankAgreements.Api\\BankAgreements.Api.csproj|solutionrelative:bankagreements.api\\controllers\\agreements\\agreementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F7815FD-B4F9-4E9B-BC76-2843D9C91B46}|BankAgreements\\BankAgreements.csproj|d:\\paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\bankagreements\\bankagreements\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F7815FD-B4F9-4E9B-BC76-2843D9C91B46}|BankAgreements\\BankAgreements.csproj|solutionrelative:bankagreements\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9DE40415-133F-1D3A-EA42-FFE9DC44B594}|BankAgreements.Infrastructure\\BankAgreements.Infrastructure.csproj|d:\\paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\bankagreements\\bankagreements.infrastructure\\repositories\\agreements\\agreementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DE40415-133F-1D3A-EA42-FFE9DC44B594}|BankAgreements.Infrastructure\\BankAgreements.Infrastructure.csproj|solutionrelative:bankagreements.infrastructure\\repositories\\agreements\\agreementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE476750-2755-473D-9352-A35AB4BC39D1}|BankAgreements.Infrastructure\\BankAgreements.Infrastructure.csproj|d:\\paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\bankagreements\\bankagreements.infrastructure\\data\\configurations\\contractconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE476750-2755-473D-9352-A35AB4BC39D1}|BankAgreements.Infrastructure\\BankAgreements.Infrastructure.csproj|solutionrelative:bankagreements.infrastructure\\data\\configurations\\contractconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E215479-FF85-FD90-A1F7-FAC7E0FD6A43}|BankAgreements.Services\\BankAgreements.Services.csproj|d:\\paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\bankagreements\\bankagreements.services\\services\\agreements\\agreementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E215479-FF85-FD90-A1F7-FAC7E0FD6A43}|BankAgreements.Services\\BankAgreements.Services.csproj|solutionrelative:bankagreements.services\\services\\agreements\\agreementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F7815FD-B4F9-4E9B-BC76-2843D9C91B46}|BankAgreements\\BankAgreements.csproj|d:\\paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\bankagreements\\bankagreements\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5F7815FD-B4F9-4E9B-BC76-2843D9C91B46}|BankAgreements\\BankAgreements.csproj|solutionrelative:bankagreements\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{3E215479-FF85-FD90-A1F7-FAC7E0FD6A43}|BankAgreements.Services\\BankAgreements.Services.csproj|d:\\paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\bankagreements\\bankagreements.services\\services\\agreements\\iagreementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E215479-FF85-FD90-A1F7-FAC7E0FD6A43}|BankAgreements.Services\\BankAgreements.Services.csproj|solutionrelative:bankagreements.services\\services\\agreements\\iagreementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBE143E4-D2BB-18B9-2844-B840C71E41B6}|BankAgreements.Shared\\BankAgreements.Shared.csproj|d:\\paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\bankagreements\\bankagreements.shared\\dtos\\agreements\\createagreementdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBE143E4-D2BB-18B9-2844-B840C71E41B6}|BankAgreements.Shared\\BankAgreements.Shared.csproj|solutionrelative:bankagreements.shared\\dtos\\agreements\\createagreementdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DE40415-133F-1D3A-EA42-FFE9DC44B594}|BankAgreements.Infrastructure\\BankAgreements.Infrastructure.csproj|d:\\paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\bankagreements\\bankagreements.infrastructure\\repositories\\contracts\\contractrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DE40415-133F-1D3A-EA42-FFE9DC44B594}|BankAgreements.Infrastructure\\BankAgreements.Infrastructure.csproj|solutionrelative:bankagreements.infrastructure\\repositories\\contracts\\contractrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBE143E4-D2BB-18B9-2844-B840C71E41B6}|BankAgreements.Shared\\BankAgreements.Shared.csproj|d:\\paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\bankagreements\\bankagreements.shared\\dtos\\agreements\\agreementdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBE143E4-D2BB-18B9-2844-B840C71E41B6}|BankAgreements.Shared\\BankAgreements.Shared.csproj|solutionrelative:bankagreements.shared\\dtos\\agreements\\agreementdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E215479-FF85-FD90-A1F7-FAC7E0FD6A43}|BankAgreements.Services\\BankAgreements.Services.csproj|d:\\paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\bankagreements\\bankagreements.services\\services\\agreements\\calculators\\installmentcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E215479-FF85-FD90-A1F7-FAC7E0FD6A43}|BankAgreements.Services\\BankAgreements.Services.csproj|solutionrelative:bankagreements.services\\services\\agreements\\calculators\\installmentcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +42,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 9,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IAgreementService.cs",
+              "DocumentMoniker": "D:\\Paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\BankAgreements\\BankAgreements.Services\\Services\\Agreements\\IAgreementService.cs",
+              "RelativeDocumentMoniker": "BankAgreements.Services\\Services\\Agreements\\IAgreementService.cs",
+              "ToolTip": "D:\\Paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\BankAgreements\\BankAgreements.Services\\Services\\Agreements\\IAgreementService.cs",
+              "RelativeToolTip": "BankAgreements.Services\\Services\\Agreements\\IAgreementService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T14:29:47.781Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -47,53 +76,92 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ContractConfiguration.cs",
-              "DocumentMoniker": "D:\\Paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\BankAgreements\\BankAgreements.Infrastructure\\Data\\Configurations\\ContractConfiguration.cs",
-              "RelativeDocumentMoniker": "BankAgreements.Infrastructure\\Data\\Configurations\\ContractConfiguration.cs",
-              "ToolTip": "D:\\Paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\BankAgreements\\BankAgreements.Infrastructure\\Data\\Configurations\\ContractConfiguration.cs",
-              "RelativeToolTip": "BankAgreements.Infrastructure\\Data\\Configurations\\ContractConfiguration.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAARAAAAAAAAAA==",
+              "Title": "AgreementService.cs",
+              "DocumentMoniker": "D:\\Paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\BankAgreements\\BankAgreements.Services\\Services\\Agreements\\AgreementService.cs",
+              "RelativeDocumentMoniker": "BankAgreements.Services\\Services\\Agreements\\AgreementService.cs",
+              "ToolTip": "D:\\Paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\BankAgreements\\BankAgreements.Services\\Services\\Agreements\\AgreementService.cs",
+              "RelativeToolTip": "BankAgreements.Services\\Services\\Agreements\\AgreementService.cs",
+              "ViewState": "AgIAAMoAAAAAAAAAAIAwwNsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T23:38:59.533Z",
+              "WhenOpened": "2026-05-13T13:46:31.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateAgreementDTO.cs",
+              "DocumentMoniker": "D:\\Paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\BankAgreements\\BankAgreements.Shared\\DTOs\\Agreements\\CreateAgreementDTO.cs",
+              "RelativeDocumentMoniker": "BankAgreements.Shared\\DTOs\\Agreements\\CreateAgreementDTO.cs",
+              "ToolTip": "D:\\Paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\BankAgreements\\BankAgreements.Shared\\DTOs\\Agreements\\CreateAgreementDTO.cs",
+              "RelativeToolTip": "BankAgreements.Shared\\DTOs\\Agreements\\CreateAgreementDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T13:45:47.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InstallmentCalculator.cs",
+              "DocumentMoniker": "D:\\Paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\BankAgreements\\BankAgreements.Services\\Services\\Agreements\\Calculators\\InstallmentCalculator.cs",
+              "RelativeDocumentMoniker": "BankAgreements.Services\\Services\\Agreements\\Calculators\\InstallmentCalculator.cs",
+              "ToolTip": "D:\\Paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\BankAgreements\\BankAgreements.Services\\Services\\Agreements\\Calculators\\InstallmentCalculator.cs",
+              "RelativeToolTip": "BankAgreements.Services\\Services\\Agreements\\Calculators\\InstallmentCalculator.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAswCwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T13:45:21.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ContractRepository.cs",
+              "DocumentMoniker": "D:\\Paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\BankAgreements\\BankAgreements.Infrastructure\\Repositories\\Contracts\\ContractRepository.cs",
+              "RelativeDocumentMoniker": "BankAgreements.Infrastructure\\Repositories\\Contracts\\ContractRepository.cs",
+              "ToolTip": "D:\\Paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\BankAgreements\\BankAgreements.Infrastructure\\Repositories\\Contracts\\ContractRepository.cs",
+              "RelativeToolTip": "BankAgreements.Infrastructure\\Repositories\\Contracts\\ContractRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAewB4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T13:43:50.258Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\Paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\BankAgreements\\BankAgreements.Infrastructure\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "BankAgreements.Infrastructure\\Data\\AppDbContext.cs",
-              "ToolTip": "D:\\Paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\BankAgreements\\BankAgreements.Infrastructure\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "BankAgreements.Infrastructure\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
+              "Title": "AgreementController.cs",
+              "DocumentMoniker": "D:\\Paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\BankAgreements\\BankAgreements.Api\\Controllers\\Agreements\\AgreementController.cs",
+              "RelativeDocumentMoniker": "BankAgreements.Api\\Controllers\\Agreements\\AgreementController.cs",
+              "ToolTip": "D:\\Paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\BankAgreements\\BankAgreements.Api\\Controllers\\Agreements\\AgreementController.cs",
+              "RelativeToolTip": "BankAgreements.Api\\Controllers\\Agreements\\AgreementController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAwDkAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T23:14:03.719Z",
+              "WhenOpened": "2026-05-13T12:11:44.781Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\BankAgreements\\BankAgreements\\Program.cs",
-              "RelativeDocumentMoniker": "BankAgreements\\Program.cs",
-              "ToolTip": "D:\\Paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\BankAgreements\\BankAgreements\\Program.cs",
-              "RelativeToolTip": "BankAgreements\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAPAAAAAAAAAA==",
+              "Title": "AgreementRepository.cs",
+              "DocumentMoniker": "D:\\Paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\BankAgreements\\BankAgreements.Infrastructure\\Repositories\\Agreements\\AgreementRepository.cs",
+              "RelativeDocumentMoniker": "BankAgreements.Infrastructure\\Repositories\\Agreements\\AgreementRepository.cs",
+              "ToolTip": "D:\\Paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\BankAgreements\\BankAgreements.Infrastructure\\Repositories\\Agreements\\AgreementRepository.cs",
+              "RelativeToolTip": "BankAgreements.Infrastructure\\Repositories\\Agreements\\AgreementRepository.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAMwCAAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T22:49:51.663Z",
+              "WhenOpened": "2026-05-13T12:11:44.344Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\BankAgreements\\BankAgreements\\appsettings.json",
-              "RelativeDocumentMoniker": "BankAgreements\\appsettings.json",
-              "ToolTip": "D:\\Paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\BankAgreements\\BankAgreements\\appsettings.json",
-              "RelativeToolTip": "BankAgreements\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-12T22:49:49.64Z",
+              "DocumentIndex": 6,
+              "Title": "AgreementDTO.cs",
+              "DocumentMoniker": "D:\\Paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\BankAgreements\\BankAgreements.Shared\\DTOs\\Agreements\\AgreementDTO.cs",
+              "RelativeDocumentMoniker": "BankAgreements.Shared\\DTOs\\Agreements\\AgreementDTO.cs",
+              "ToolTip": "D:\\Paschoalotto\\back-end-paschoalotto\\bank-agreements-back\\BankAgreements\\BankAgreements.Shared\\DTOs\\Agreements\\AgreementDTO.cs",
+              "RelativeToolTip": "BankAgreements.Shared\\DTOs\\Agreements\\AgreementDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T12:11:44.287Z",
               "EditorCaption": ""
             }
           ]

@@ -109,9 +109,9 @@ namespace BankAgreements.Infrastructure.Migrations
                         .HasColumnName("name");
 
                     b.HasKey("Id")
-                        .HasName("pk_debtor");
+                        .HasName("pk_debtors");
 
-                    b.ToTable("debtor", (string)null);
+                    b.ToTable("debtors", (string)null);
                 });
 
             modelBuilder.Entity("BankAgreements.Infrastructure.Entities.Installments.Installment", b =>
@@ -165,19 +165,34 @@ namespace BankAgreements.Infrastructure.Migrations
                         .HasColumnType("uuid")
                         .HasColumnName("id");
 
+                    b.Property<decimal>("AnnualInterestRate")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("numeric(5,4)")
+                        .HasDefaultValue(0.10m)
+                        .HasColumnName("annual_interest_rate");
+
                     b.Property<string>("Cnpj")
                         .IsRequired()
-                        .HasColumnType("text")
+                        .HasMaxLength(18)
+                        .HasColumnType("character varying(18)")
                         .HasColumnName("cnpj");
 
                     b.Property<string>("Description")
                         .IsRequired()
-                        .HasColumnType("text")
+                        .HasMaxLength(500)
+                        .HasColumnType("character varying(500)")
                         .HasColumnName("description");
+
+                    b.Property<int>("MaxInstallments")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasDefaultValue(12)
+                        .HasColumnName("max_installments");
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("text")
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)")
                         .HasColumnName("name");
 
                     b.HasKey("Id")
@@ -189,7 +204,7 @@ namespace BankAgreements.Infrastructure.Migrations
             modelBuilder.Entity("BankAgreements.Infrastructure.Entities.Agreements.Agreement", b =>
                 {
                     b.HasOne("BankAgreements.Infrastructure.Entities.Contracts.Contract", "Contract")
-                        .WithMany()
+                        .WithMany("Agreements")
                         .HasForeignKey("ContractId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired()
@@ -205,7 +220,7 @@ namespace BankAgreements.Infrastructure.Migrations
                         .HasForeignKey("DebtorId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired()
-                        .HasConstraintName("fk_contracts_debtor_debtor_id");
+                        .HasConstraintName("fk_contracts_debtors_debtor_id");
 
                     b.HasOne("BankAgreements.Infrastructure.Entities.Institutions.Institution", "Institution")
                         .WithMany()
@@ -243,6 +258,8 @@ namespace BankAgreements.Infrastructure.Migrations
 
             modelBuilder.Entity("BankAgreements.Infrastructure.Entities.Contracts.Contract", b =>
                 {
+                    b.Navigation("Agreements");
+
                     b.Navigation("Installments");
                 });
 #pragma warning restore 612, 618

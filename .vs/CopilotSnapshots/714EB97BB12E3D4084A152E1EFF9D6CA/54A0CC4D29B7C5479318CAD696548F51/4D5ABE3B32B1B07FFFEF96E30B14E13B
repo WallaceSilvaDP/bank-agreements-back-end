@@ -1,0 +1,31 @@
+﻿@BankAgreements_HostAddress = http://localhost:5181
+
+GET {{BankAgreements_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+# Get all agreements
+GET {{BankAgreements_HostAddress}}/api/agreements
+Accept: application/json
+
+###
+
+# Get agreement by id
+GET {{BankAgreements_HostAddress}}/api/agreements/{id}
+Accept: application/json
+
+###
+
+# Create new agreement
+POST {{BankAgreements_HostAddress}}/api/agreements
+Content-Type: application/json
+
+{
+  "number": 1,
+  "contractId": "00000000-0000-0000-0000-000000000000",
+  "dueDate": "2025-06-30T00:00:00Z",
+  "amount": 5000.00
+}
+
+###

@@ -1,0 +1,10 @@
+﻿namespace BankAgreements.Infrastructure.Entities.Institutions
+{
+	public class Institution
+	{
+		public Guid Id { get; set; }
+		public required string Name { get; set; }
+		public required string Description { get; set; }
+		public required string Cnpj { get; set; }
+	}
+}

@@ -1,0 +1,43 @@
+namespace BankAgreements.Shared.DTOs.Agreements;
+
+public class SimulatedAgreementDTO
+{
+    public Guid Id { get; set; }
+
+    public int Number { get; set; }
+
+    public Guid ContractId { get; set; }
+
+    public string ContractNumber { get; set; } = string.Empty;
+
+    public DateTime DueDate { get; set; }
+
+    public decimal Amount { get; set; }
+
+    public int TotalInstallments { get; set; }
+
+    public string InstitutionName { get; set; } = string.Empty;
+
+    public int MaxInstallmentsAllowed { get; set; }
+
+    public decimal ApplicableInterestRate { get; set; }
+
+    public decimal OpenDebtAmount { get; set; }
+
+    public List<SimulatedInstallmentDTO> Installments { get; set; } = [];
+
+    public bool IsValid { get; set; }
+
+    public string? ValidationMessage { get; set; }
+	public int NumberOfInstallments { get; set; }
+	public DateTime FirstDueDate { get; set; }
+}
+
+public class SimulatedInstallmentDTO
+{
+    public int Number { get; set; }
+
+    public DateTime DueDate { get; set; }
+
+    public decimal Amount { get; set; }
+}

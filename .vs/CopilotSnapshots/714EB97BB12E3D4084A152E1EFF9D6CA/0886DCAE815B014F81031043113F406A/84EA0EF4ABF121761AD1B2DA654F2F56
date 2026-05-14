@@ -1,0 +1,78 @@
+﻿using BankAgreements.Infrastructure.Entities.Agreements;
+using BankAgreements.Infrastructure.Repositories.Agreements;
+using BankAgreements.Shared.DTOs.Agreements;
+
+namespace BankAgreements.Services.Agreements;
+
+public class AgreementService : IAgreementService
+{
+    private readonly IAgreementRepository _repository;
+
+    public AgreementService(IAgreementRepository repository)
+    {
+        _repository = repository;
+    }
+
+    public async Task<List<AgreementDTO>> GetAllAsync()
+    {
+        var agreements = await _repository.GetAllAsync();
+
+        return agreements.Select(agreement =>
+        {
+            return new AgreementDTO
+            {
+                Id = agreement.Id,
+                Number = agreement.Number,
+                ContractId = agreement.ContractId,
+                ContractNumber = agreement.Contract.ContractNumber,
+                DueDate = agreement.DueDate,
+                Amount = agreement.Amount,
+                TotalInstallments = agreement.Installments?.Count ?? 0
+            };
+        }).ToList();
+    }
+
+    public async Task<AgreementDTO?> GetByIdAsync(Guid id)
+    {
+        var agreement = await _repository.GetByIdAsync(id);
+
+        if (agreement is null)
+            return null;
+
+        return new AgreementDTO
+        {
+            Id = agreement.Id,
+            Number = agreement.Number,
+            ContractId = agreement.ContractId,
+            ContractNumber = agreement.Contract.ContractNumber,
+            DueDate = agreement.DueDate,
+            Amount = agreement.Amount,
+            TotalInstallments = agreement.Installments?.Count ?? 0
+        };
+    }
+
+    public async Task<AgreementDTO> CreateAsync(CreateAgreementDTO dto)
+    {
+        var agreement = new Agreement
+        {
+            Id = Guid.NewGuid(),
+            Number = dto.Number,
+            ContractId = dto.ContractId,
+            DueDate = dto.DueDate,
+            Amount = dto.Amount,
+            Installments = []
+        };
+
+        var createdAgreement = await _repository.CreateAsync(agreement);
+
+        return new AgreementDTO
+        {
+            Id = createdAgreement.Id,
+            Number = createdAgreement.Number,
+            ContractId = createdAgreement.ContractId,
+            DueDate = createdAgreement.DueDate,
+            Amount = createdAgreement.Amount,
+            TotalInstallments = createdAgreement.Installments?.Count ?? 0
+        };
+    }
+}

@@ -27,3 +27,4 @@ F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Infrastructure\obj
 F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Infrastructure\obj\Debug\net8.0\BankAgreements.Infrastructure.pdb
 F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Infrastructure\obj\Debug\net8.0\BankAgreements.Infrastructure.genruntimeconfig.cache
 F:\Angular Teste\back\bank-agreements-back-end\BankAgreements.Infrastructure\obj\Debug\net8.0\ref\BankAgreements.Infrastructure.dll
+D:\Paschoalotto\back-end-paschoalotto\bank-agreements-back\BankAgreements\BankAgreements.Infrastructure\obj\Debug\net8.0\BankAgreements.Infrastructure.sourcelink.json

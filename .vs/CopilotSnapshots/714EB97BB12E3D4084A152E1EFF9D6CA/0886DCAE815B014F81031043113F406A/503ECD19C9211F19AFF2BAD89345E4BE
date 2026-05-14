@@ -1,0 +1,48 @@
+﻿using Microsoft.EntityFrameworkCore;
+using BankAgreements.Infrastructure.Data;
+using BankAgreements.Infrastructure.Entities.Agreements;
+
+namespace BankAgreements.Infrastructure.Repositories.Agreements;
+
+public class AgreementRepository : IAgreementRepository
+{
+    private readonly AppDbContext _context;
+
+    public AgreementRepository(AppDbContext context)
+    {
+        _context = context;
+    }
+
+    public async Task<List<Agreement>> GetAllAsync()
+    {
+        return await _context.Agreements
+            .Include(x => x.Contract)
+            .Include(x => x.Installments)
+            .AsNoTracking()
+            .ToListAsync();
+    }
+
+    public async Task<Agreement?> GetByIdAsync(Guid id)
+    {
+        return await _context.Agreements
+            .Include(x => x.Contract)
+            .Include(x => x.Installments)
+            .FirstOrDefaultAsync(x => x.Id == id);
+    }
+
+    public async Task<Agreement> CreateAsync(Agreement agreement)
+    {
+        _context.Agreements.Add(agreement);
+        await _context.SaveChangesAsync();
+        return agreement;
+    }
+
+    public async Task<Agreement?> GetByIdWithContractAsync(Guid contractId)
+    {
+        return await _context.Agreements
+            .Include(x => x.Contract)
+                .ThenInclude(c => c!.Institution)
+            .Include(x => x.Installments)
+            .FirstOrDefaultAsync(x => x.ContractId == contractId);
+    }
+}
